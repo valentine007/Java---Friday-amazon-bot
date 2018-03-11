@@ -1,0 +1,12 @@
+1. Скачиваем Web-driver: seleniumhq.org
+2. Добавляем в проект ссылку на библиотеку Selenium:
+- ПКМ на имени проекта - ProjectProperties
+- Java Build Path
+- Add External JARs...
+- Открываем все файлы с расширением *.jar в корневой папке и папке libs
+
+3. Создаем обьект Web драйвера типа WebDriver, например для браузера Fire Fox:
+- WebDriver driver = new FirefoxDriver();
+- импортируем веб драйвер и firefox драйвер:
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
